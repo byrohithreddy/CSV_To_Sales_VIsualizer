@@ -14,25 +14,33 @@ CSV to Sales Visualizer is a simple, interactive Python web app that allows user
 
 Make sure your CSV follows this structure:
 
-TV,Radio,Newspaper,Sales
-230.1,37.8,69.2,22.1
-44.5,39.3,45.1,10.4
-17.2,45.9,69.3,9.3
+TV,Radio,Newspaper,Sales  
+230.1,37.8,69.2,22.1  
+44.5,39.3,45.1,10.4  
+17.2,45.9,69.3,9.3  
 ...
 
 🖥️ How to Run the App
 
 1. Clone the Repository
-    git clone https://github.com/your-username/csv-to-sales-visualizer.git
-    cd csv-to-sales-visualizer
+```bash
+git clone https://github.com/your-username/csv-to-sales-visualizer.git
+cd csv-to-sales-visualizer
+```
 
 2. Install Dependencies
-    pip install -r requirements.txt
-    OR manually:
-    pip install pandas matplotlib seaborn scikit-learn gradio
+```bash
+pip install -r requirements.txt
+```
+Or manually:
+```bash
+pip install pandas matplotlib seaborn scikit-learn gradio
+```
 
 3. Run the App
-    python app.py
+```bash
+python app.py
+```
 
 The Gradio interface will launch in your browser automatically.
 
@@ -65,10 +73,11 @@ This project is open-source under the MIT License.
 
 🤝 Contributing
 
-Pull requests and suggestions are welcome!
+Pull requests and suggestions are welcome!  
 Feel free to fork the project and customize it to your needs.
 
 📬 Contact
 
-Have questions or want to share feedback?
+Have questions or want to share feedback?  
 Open an issue or reach out via GitHub Discussions.
+
